@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+    background: white;
     border: 1px solid black;
     border-radius: 0.3em;
     width: 90%;
@@ -68,4 +69,14 @@ body {
     border: none;
     border-radius: 0.3em;
     cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    
 }
